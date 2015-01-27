@@ -1,4 +1,4 @@
-import sys
+#import sys
 
-inside = eval(input())
+inside = input()
 print (inside)
