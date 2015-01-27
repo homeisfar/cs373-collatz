@@ -1,4 +1,4 @@
 import sys
 
-var inside = eval(input())
+inside = eval(input())
 print (inside)
