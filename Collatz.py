@@ -1,4 +1,6 @@
 #import sys
 
-inside = input()
+inside = input ()
+while (int(inside) != 42):
+    inside = input ()
 print (inside)
