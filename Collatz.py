@@ -4,6 +4,7 @@
 # projects/collatz/Collatz.py
 # Copyright (C) 2015
 # Glenn P. Downing
+# With student edits by Ali Homafar
 # ---------------------------
 
 # ------------
@@ -29,6 +30,10 @@ def collatz_eval (i, j) :
     j the end       of the range, inclusive
     return the max cycle length of the range [i, j]
     """
+    if i > j :
+    	temp = i
+    	i = j
+    	j = temp
     c = 1
     retval = c
     while i < j :
