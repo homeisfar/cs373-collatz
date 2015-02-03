@@ -98,7 +98,8 @@ def collatz_eval (i, j) :
     		if (v % 2) == 0 :
     			v = (v // 2)
     		else :
-    			v = (v * 3) + 1
+    			v = v + (v >> 1) + 1
+    			c+=1
     		c+=1
     		if c > retval :
     			retval = c
