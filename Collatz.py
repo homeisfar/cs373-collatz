@@ -30,6 +30,11 @@ def collatz_eval (i, j) :
     j the end       of the range, inclusive
     return the max cycle length of the range [i, j]
     """
+    assert i > 0
+    assert j > 0
+    assert i < 1000000
+    assert j < 1000000
+    
     if i > j :
     	temp = i
     	i = j
