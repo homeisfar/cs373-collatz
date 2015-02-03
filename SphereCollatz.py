@@ -87,8 +87,8 @@ def collatz_eval (i, j) :
     	temp = i
     	i = j
     	j = temp
-    	if j // 2 > i :
-    		i = j // 2
+    if j // 2 > i :
+    	i = j // 2
     c = 1
     retval = c
     while i < j :
