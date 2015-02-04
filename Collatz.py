@@ -39,8 +39,10 @@ def collatz_eval (i, j) :
     	temp = i
     	i = j
     	j = temp
+
     if j // 2 > i :
     	i = j // 2
+    
     c = 1
     retval = c
     while i < j :
@@ -51,7 +53,9 @@ def collatz_eval (i, j) :
     			v = (v // 2)
     		else :
     			v = v + (v >> 1) + 1
-    			c+=1
+    #Because the above optimzation is combining two steps
+    #we add extra to the cycle count.
+    			c+=1 
     		c+=1
     		if c > retval :
     			retval = c
