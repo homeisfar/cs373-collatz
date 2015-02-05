@@ -15,7 +15,6 @@ import sys
 # collatz_eval
 # ------------
 
-
 def collatz_eval () :
     """
     Find the cycle length of i.
@@ -24,10 +23,10 @@ def collatz_eval () :
     c = 1
     i = 1
     v = 1
-    while i < 100 :
+    while i < 31 :
         c = 1
         v = i
-        while v != 1 :
+        while v > 1 :
             if (v % 2) == 0 :
                 v = (v // 2)
             else :
