@@ -1,0 +1,125 @@
+commit 9ade3d9e7cfba17bcea927afe658aa13feb1f9dc
+Author: Ali Homafar <home.isfar@gmail.com>
+Date:   Thu Feb 5 18:46:18 2015 -0600
+
+    Incorporated explanatory inline comments
+
+commit 0b4b4a9ad701553f73b12417ee1b84bf651ab530
+Author: Ali Homafar <home.isfar@gmail.com>
+Date:   Thu Feb 5 18:41:07 2015 -0600
+
+    Reverted test suite to use Collatz, not SphereCollatz
+
+commit f0bae6e8745b819fc794325c3b9bbc60f3ef9deb
+Author: Ali Homafar <home.isfar@gmail.com>
+Date:   Thu Feb 5 18:39:11 2015 -0600
+
+    Updated Collatz.py to reflect SphereCollatz.py
+
+commit eedd5fa21b59939a944e1d5a94856c251f234988
+Author: Ali Homafar <home.isfar@gmail.com>
+Date:   Thu Feb 5 18:35:31 2015 -0600
+
+    Fixed test cases not running
+
+commit 518ec19cf112497750a3a3e260be15641ed3b46a
+Author: Ali Homafar <home.isfar@gmail.com>
+Date:   Thu Feb 5 16:34:57 2015 -0600
+
+    Fixed a bug in code caught by unit test
+
+commit 3d76558114438e1b44463d7c077b7f354dd5b6d5
+Author: Ali Homafar <home.isfar@gmail.com>
+Date:   Tue Feb 3 20:46:33 2015 -0600
+
+    Fixed the whitespace on return.
+
+commit a8de03901e9fe7b8bfa91af0b3775a94e4c5a072
+Author: Ali Homafar <home.isfar@gmail.com>
+Date:   Tue Feb 3 20:09:37 2015 -0600
+
+    Created an unoptimized cache that's makes the input file at the limit of what SPOJ will accept
+
+commit f3e3ed5190692b4baab08f2e0c0c041e3cf5e39a
+Author: Ali Homafar <home.isfar@gmail.com>
+Date:   Tue Feb 3 20:06:08 2015 -0600
+
+    Metacache creator with many values.
+
+commit e7af99fc7e89bb104ce5ba1097071315cd63cfda
+Author: Ali Homafar <home.isfar@gmail.com>
+Date:   Mon Feb 2 21:26:15 2015 -0600
+
+    Further optimized runtime with the bit shift
+
+commit c69bdfd40c1edeb70f6aec1275522e3b82904873
+Author: Ali Homafar <home.isfar@gmail.com>
+Date:   Mon Feb 2 20:55:46 2015 -0600
+
+    Fixed the indentation on the optimization
+
+commit 993b223aba807092ba8dc284afbd3c48ca64c695
+Author: Ali Homafar <home.isfar@gmail.com>
+Date:   Mon Feb 2 20:51:33 2015 -0600
+
+    Some dirty optimization
+
+commit b643032c7c26b2bbd76d16440e1971ed8525f805
+Author: Ali Homafar <home.isfar@gmail.com>
+Date:   Mon Feb 2 20:18:27 2015 -0600
+
+    Introduced some asserts that should never fail
+
+commit 90db29cb22fe833580484d37383811d942592c58
+Author: Ali Homafar <home.isfar@gmail.com>
+Date:   Mon Feb 2 13:02:47 2015 -0600
+
+    Fixed case when a higher number is given first
+
+commit eb2bed8059180530d92fdee50e8fb6b528e8294b
+Author: Ali Homafar <home.isfar@gmail.com>
+Date:   Sun Feb 1 16:00:52 2015 -0600
+
+    Fixed variable having to be assigned before referenced.
+
+commit 01fa41091ef1e7e03d05bd338b50ee6f4c9b9d29
+Author: Ali Homafar <home.isfar@gmail.com>
+Date:   Sun Feb 1 15:57:20 2015 -0600
+
+    Fixed cycle length count not updating per loop
+
+commit 6396b3f6921998b6c9bc559b0604e4f4071199ee
+Author: Ali Homafar <home.isfar@gmail.com>
+Date:   Sun Feb 1 15:55:39 2015 -0600
+
+    Implemented the loops to check all the values
+
+commit a0113911530937591b7c272af7fd7290f9e9b0fd
+Author: Ali Homafar <home.isfar@gmail.com>
+Date:   Tue Jan 27 10:16:54 2015 -0600
+
+    Did SPOJ1 backwards. Fixed.
+
+commit cfb425c7509fa1ef5294178b2a2cdcdae9061828
+Author: Ali Homafar <home.isfar@gmail.com>
+Date:   Tue Jan 27 10:13:42 2015 -0600
+
+    Learned how to do loops. SPOJ-1, while technically completely unrelated to this project, is done
+
+commit debd7ff8086e28b92bb6c430cdaabeac06b33a45
+Author: Ali Homafar <home.isfar@gmail.com>
+Date:   Tue Jan 27 09:59:28 2015 -0600
+
+    Learned how to read from stdin and print out the statement
+
+commit 66ece1acb2f88e251e196a3d062799269f150b5e
+Author: Ali Homafar <home.isfar@gmail.com>
+Date:   Tue Jan 27 09:56:45 2015 -0600
+
+    figured out var isn't necessary
+
+commit d900630bc4552ffe0454a70bcd217afad89c1d3b
+Author: Ali Homafar <home.isfar@gmail.com>
+Date:   Tue Jan 27 09:55:33 2015 -0600
+
+    Trying to figure out python
