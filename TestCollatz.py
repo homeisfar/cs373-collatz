@@ -24,19 +24,19 @@ class TestCollatz (TestCase) :
     # read
     # ----
 
-    def test_read (self) :
+    def test_read_1 (self) :
         s    = "1 10\n"
         i, j = collatz_read(s)
         self.assertEqual(i,  1)
         self.assertEqual(j, 10)
 
-    def test_read (self) :
+    def test_read_2 (self) :
         s    = "15 20\n"
         i, j = collatz_read(s)
         self.assertEqual(i, 15)
         self.assertEqual(j, 20)
 
-    def test_read (self) :
+    def test_read_3 (self) :
         s    = "-1 0\n"
         i, j = collatz_read(s)
         self.assertEqual(i, -1)
@@ -70,17 +70,17 @@ class TestCollatz (TestCase) :
     # print
     # -----
 
-    def test_print (self) :
+    def test_print_1 (self) :
         w = StringIO()
         collatz_print(w, 1, 10, 20)
         self.assertEqual(w.getvalue(), "1 10 20\n")
 
-    def test_print (self) :
+    def test_print_2 (self) :
         w = StringIO()
         collatz_print(w, 3, 3, 1)
         self.assertEqual(w.getvalue(), "3 3 1\n")
 
-    def test_print (self) :
+    def test_print_3 (self) :
         w = StringIO()
         collatz_print(w, 100, 200, -4)
         self.assertEqual(w.getvalue(), "100 200 -4\n")
@@ -89,25 +89,25 @@ class TestCollatz (TestCase) :
     # solve
     # -----
 
-    def test_solve (self) :
+    def test_solve_1 (self) :
         r = StringIO("1 10\n100 200\n201 210\n900 1000\n")
         w = StringIO()
         collatz_solve(r, w)
         self.assertEqual(w.getvalue(), "1 10 20\n100 200 125\n201 210 89\n900 1000 174\n")
 
-    def test_solve (self) :
+    def test_solve_2 (self) :
         r = StringIO("266726 2660\n")
         w = StringIO()
         collatz_solve(r, w)
         self.assertEqual(w.getvalue(), "266726 2660 443\n")
 
-    def test_solve (self) :
+    def test_solve_3 (self) :
         r = StringIO("330 1\n27 31\n201 210\n99 100\n")
         w = StringIO()
         collatz_solve(r, w)
         self.assertEqual(w.getvalue(), "330 1 144\n27 31 112\n201 210 89\n99 100 26\n")
 
-def test_solve (self) :
+    def test_solve_4 (self) :
         r = StringIO("900 1000\n")
         w = StringIO()
         collatz_solve(r, w)
