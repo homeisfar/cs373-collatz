@@ -42,6 +42,8 @@ def collatz_eval (i, j) :
         i = j
         j = temp
 
+#The following optimizaiton reduces the amount of 
+#values we have to compute the cycle time for by half.
     if j // 2 > i :
         i = j // 2 +1
     
