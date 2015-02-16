@@ -1,0 +1,22 @@
+ah26482 
+5/5 github setup and commit log
+5/5 github issues
+15/15 sphere and cache
+15/15 average of 3 unit test per function
+9/15 100 lines of acceptance test
+10/10 Pydoc
+5/5 Google Form with time estimate.
+0/0 bonus and panalty points
+50/70 total
+comment:
+Please don't commit junk files. More that 100 lines of test.
+Wrong name on public repo -5
+Missing files -14
+Bonus:
+    -
+Penalty:
+    skz94 Passed
+    ms52895 Passed
+    da9492 Passed
+    ccl676 Passed
+    af22574 Passed
